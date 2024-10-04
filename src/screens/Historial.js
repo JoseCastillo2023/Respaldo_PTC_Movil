@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     marginRight: 310,
     marginTop: 10,
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     borderRadius: 20,
     paddingVertical: 12,
     paddingHorizontal: 15,

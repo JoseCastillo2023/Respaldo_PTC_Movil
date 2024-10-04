@@ -134,7 +134,7 @@ export default function Productos({ navigation }) {
               onValueChange={(value) => getProductos(value)}
               placeholder={{ label: "Selecciona una categoría...", value: null }}
               items={dataCategorias.map((categoria) => ({
-                label: categoria.nombre,
+                label: categoria.nombre_categoria,
                 value: categoria.id_categoria,
               }))}
             />
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   pickerWrapper: {
     width: "90%",
     borderRadius: 20,
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     marginBottom: 10,
     marginTop: 20,
     marginLeft: 17,
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   button: {
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     borderRadius: 20,
     paddingVertical: 10,
     paddingHorizontal: 20,
@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
   cartButton: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     borderRadius: 20,
     paddingVertical: 10,
     paddingHorizontal: 20,
@@ -271,9 +271,9 @@ const styles = StyleSheet.create({
   },
   pickerContainer: {
     alignItems: "center",
-    borderColor: "#16537E",
+    borderColor: "#bc7a62",
     borderRadius: 20,
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     color: "#FFF",
   },
   picker: {
@@ -288,7 +288,7 @@ const pickerSelectStyles = StyleSheet.create({
     borderRadius: 20,
     paddingHorizontal: 15,
     paddingVertical: 5,
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     color: "#FFF",
   },
   placeholder: {
@@ -297,7 +297,7 @@ const pickerSelectStyles = StyleSheet.create({
   },
   viewContainer: {
     borderRadius: 20,
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     paddingHorizontal: 15,
     paddingVertical: 1,
   },

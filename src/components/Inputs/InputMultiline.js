@@ -1,5 +1,5 @@
-import { StyleSheet, TextInput } from "react-native";
-import React from "react";
+import { StyleSheet, TextInput } from 'react-native';
+import React from 'react';
 
 // Componente InputMultiline que recibe varias props para gestionar el valor y los cambios de texto
 export default function InputMultiline({ placeHolder, valor, setTextChange }) {
@@ -9,7 +9,8 @@ export default function InputMultiline({ placeHolder, valor, setTextChange }) {
       placeholder={placeHolder}
       value={valor}
       onChangeText={setTextChange}
-      placeholderTextColor={"#16537E"}
+      placeholderTextColor={'#623431'}
+      multiline={true}
       numberOfLines={4}
     />
   );
@@ -18,17 +19,15 @@ export default function InputMultiline({ placeHolder, valor, setTextChange }) {
 // Estilos para el componente InputMultiline
 const styles = StyleSheet.create({
   Input: {
-    backgroundColor: "#FFF",
-    color: "#16537E",
-    fontWeight: "500",
-    width: 320,
+    backgroundColor: '#FFF',
+    color: "#623431",
+    fontWeight: '500',
+    borderWidth: 1,
+    borderColor: '#623431', 
+    width: 350,
     height: 45,
     borderRadius: 15,
     padding: 10,
-    marginVertical: 10,
-    alignItems: "center",
-    justifyContent: "center",
-    borderWidth: 3,
-    borderColor: "#16537E",
+    marginVertical: 10
   },
 });

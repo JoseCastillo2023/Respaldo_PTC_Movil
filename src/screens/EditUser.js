@@ -222,13 +222,13 @@ export default function UserProfile({ navigation }) {
         <Image source={require("../img/user.png")} style={styles.image} />
         <Text style={styles.label}>Nombre:</Text>
         <Input
-          placeHolder="Nombre Cliente"
+          placeHolder="Nombre:"
           valor={nombre}
           setTextChange={setNombre}
         />
         <Text style={styles.label}>Apellido:</Text>
         <Input
-          placeHolder="Apellido Cliente"
+          placeHolder="Apellido:"
           valor={apellido}
           setTextChange={setApellido}
         />
@@ -345,7 +345,7 @@ export default function UserProfile({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     paddingTop: Constants.statusBarHeight,
   },
   ButtonVolver: {
@@ -353,13 +353,13 @@ const styles = StyleSheet.create({
     marginRight: "80%",
     marginTop: 30,
     marginLeft: "5%",
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     borderRadius: 15,
     paddingVertical: 15,
     paddingHorizontal: 18,
   },
   scrollViewStyle: {
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 20,
@@ -378,7 +378,7 @@ const styles = StyleSheet.create({
   },
   contenedorFecha: {
     backgroundColor: "#FFF",
-    color: "#16537E",
+    color: "#bc7a62",
     fontWeight: "500",
     width: 320,
     height: 45,
@@ -386,16 +386,16 @@ const styles = StyleSheet.create({
     padding: 10,
     marginVertical: 10,
     borderWidth: 3,
-    borderColor: "#16537E",
+    borderColor: "#bc7a62",
   },
   fechaSeleccionar: {
     fontSize: 14,
-    color: "#16537E",
+    color: "#bc7a62",
     fontWeight: "500",
   },
   fecha: {
     fontSize: 14,
-    color: "#16537E",
+    color: "#bc7a62",
     fontWeight: "500",
   },
   image: {
@@ -434,7 +434,7 @@ const styles = StyleSheet.create({
   },
   modalButton: {
     width: "100%",
-    backgroundColor: "#16537E",
+    backgroundColor: "#bc7a62",
     paddingbo: 10,
     borderRadius: 15,
     alignItems: "center",
